@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "scope": "one profiled development inference; CPU/CUDA module scopes include nested ops and are not causal ablation effects",
+  "run_id": "20261019T143540Z__543ce8cb__quantvla-module-attribution-profile-v1-t0-s20-seed53",
+  "source_sha256": {
+    "summary.json": "b6502f92643bac00df4480c9e15b4c4315aa3917e2850f0b23c0c5f96d18c1a4",
+    "module-profile.json": "533dcaa5f8e8b4dbe40f4fbf25745033f38335d62bd1cc7ec74b6e2bf84b2f70",
+    "result-manifest.json": "8eac55c07d5ca70afca62638659143e0d4d17c567d9cc2dbc0a244f27708abfc"
+  },
+  "os_child_wait": 0,
+  "top_level_sha_verified": 5,
+  "archive_internal_sha_verified": 7,
+  "steady_seconds_per_call": 0.40675121533293146,
+  "groups": {
+    "action_head": {
+      "modules": 32,
+      "profiled_calls": 128,
+      "bf16_weight_bytes_nominal": 603979776,
+      "resident_weight_scale_cache_bytes": 333938688,
+      "nominal_bytes_saved_vs_bf16_weight": 270041088,
+      "module_cpu_total_scope_ms": 90.40016999999999,
+      "module_cuda_total_scope_ms": 3.771373999999079
+    },
+    "backbone": {
+      "modules": 84,
+      "profiled_calls": 84,
+      "bf16_weight_bytes_nominal": 1207959552,
+      "resident_weight_scale_cache_bytes": 664731648,
+      "nominal_bytes_saved_vs_bf16_weight": 543227904,
+      "module_cpu_total_scope_ms": 54.62724999999977,
+      "module_cuda_total_scope_ms": 3.3813669999997655
+    }
+  },
+  "candidate": "Compress backbone only; leave action head BF16. Nominal module-weight saving ~518MiB; action-head conversion removal could cut many repeated transforms, but total-wall benefit and quality remain unmeasured."
+}

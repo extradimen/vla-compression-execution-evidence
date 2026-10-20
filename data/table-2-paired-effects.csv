@@ -1,0 +1,9 @@
+contrast,metric,estimate,ci_low,ci_high,cluster_count
+compression_at_E1,success_rate_difference,0.018750000000000017,-0.02916666666666662,0.07708333333333335,8
+compression_at_E1,episode_wall_seconds_all_attempts_difference,31.342487475597835,27.318669723341255,34.91794905959833,8
+compression_at_E4,success_rate_difference,-0.002083333333333312,-0.027083333333333307,0.01875000000000003,8
+compression_at_E4,episode_wall_seconds_all_attempts_difference,7.774008919504073,6.9700405077584335,8.488160894588994,8
+execution_E4_vs_E1_uncompressed,success_rate_difference,0.05208333333333333,-0.014583333333333351,0.13749999999999998,8
+execution_E4_vs_E1_uncompressed,episode_wall_seconds_all_attempts_difference,-28.422937127531135,-30.86332881181321,-26.003203972000726,8
+interaction_difference_in_differences,success_rate_difference,-0.02083333333333333,-0.07708333333333331,0.029166666666666646,8
+interaction_difference_in_differences,episode_wall_seconds_all_attempts_difference,-23.568478556093762,-26.59687380058022,-20.233412923976722,8

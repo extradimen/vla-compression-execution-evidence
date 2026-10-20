@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "status": "offline_backbone_w4a8_development_profile_batch_complete",
+  "scope": "GR00T H16 D4 offline GPU-prepared backbone-only W4-storage W8-resident fused-A8 cached-rotations development pilot; action head BF16; task 0 only; no independent-final claim",
+  "task_id": 0,
+  "state_ids": [
+    20
+  ],
+  "seed": 53,
+  "execute_length": 1,
+  "denoising_steps": 4,
+  "weight_bits": 4,
+  "activation_bits": 8,
+  "episode_count": 1,
+  "successes": 1,
+  "inference_calls": 92,
+  "model_load_wall_seconds": 10.716344840999227,
+  "quantization_prepare_wall_seconds": 2.7018608649959788,
+  "cpu_peak_rss_kib": 7035148,
+  "inference_wall_seconds_total": 36.10482737097482,
+  "inference_wall_seconds_excluding_warmup_and_profiler": 30.757524010987254,
+  "steady_inference_calls": 90,
+  "packed_w4a8_modules": 84,
+  "packed_weight_and_scale_storage_bytes": 604962816,
+  "resident_weight_format": "int8 decoded from packed W4 by offline GPU producer",
+  "bundle_manifest_sha256": "8738ff4032ea11bffce45dc2a7f9550ea3cc64e5924bf9fce6caaf226a687382",
+  "producer_deployment_id": "821a4136bf5c549affa1e60bf567a1774edd48d1db81af64cbc5eb22831a5f6c",
+  "gates_sha256": "d637558a8757c175a81eeee4795de35bbb248aa9f44d11c5b0d5cb2a6f37faf4",
+  "post_prepare_gpu_allocated_bytes": 4985842688,
+  "preparation_peak_allocated_bytes": 4985842688,
+  "inference_only_peak_allocated_bytes": 5200095232,
+  "activation_quantization": "dynamic per-row int8; not prior frozen per-channel fakequant",
+  "integer_gemm": true,
+  "calibration_semantics": "DuQuant weight transform from development; new dynamic activation quantization",
+  "final_holdout_reservation_sha256": "436dd8a6530afb17c8f23383d81b3ace82628377135468c0f99f16563920edde",
+  "gpu_peak_allocated_bytes": 5200095232,
+  "batch_sha256": "447f00e46a4cc295e247f65ffb1b9156f1075e10741ddcc475f199a6af96c734",
+  "episode_sha256": {
+    "episode-t0-s20-seed53.json": "a9d365d128c44307f24bdd0cb57a0cbe0b02aaf175cbab16fbc396123966dc5c"
+  },
+  "client_child_wait_return_code": 0,
+  "lifecycle_gates_passed": true
+}

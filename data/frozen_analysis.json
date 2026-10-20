@@ -1,0 +1,463 @@
+{
+  "schema_version": 1,
+  "scope": "Independent within-QuantVLA GR00T/LIBERO-spatial final 2x2 synchronous contrasts",
+  "status": "all_96_batches_sha_verified_and_analyzed",
+  "batches": 96,
+  "attempts": 1920,
+  "task_count": 8,
+  "initial_states_per_task": 20,
+  "repeat_seeds": [
+    53,
+    67,
+    79
+  ],
+  "arms": {
+    "U_E1": {
+      "attempts": 480,
+      "successes": 428,
+      "task_equal_success_rate": 0.8916666666666666,
+      "restricted_action_steps_to_success_mean": 122.1875,
+      "episode_wall_seconds_all_attempts": {
+        "count": 480,
+        "mean": 40.96823688476725,
+        "p50": 37.80346302106045,
+        "p95": 73.27316967502702
+      },
+      "episode_wall_seconds_successes_only": {
+        "count": 428,
+        "mean": 37.079006162848785,
+        "p50": 36.939636730006896,
+        "p95": 46.00798279605806
+      },
+      "inference_latency_seconds": {
+        "count": 58650,
+        "mean": 0.2941418266814847,
+        "p50": 0.2936747770290822,
+        "p95": 0.30371778493281454
+      },
+      "observation_age_at_commit_seconds": {
+        "count": 58650,
+        "mean": 0.29445816671933095,
+        "p50": 0.2939755970146507,
+        "p95": 0.30411251401528716
+      },
+      "chunk_boundary_action_delta_l2": {
+        "count": 480,
+        "mean": 0.11296766548873378,
+        "p50": 0.1108170741372798,
+        "p95": 0.14982417376368262
+      },
+      "controller_final_gpu_seconds_all_attempts": 20521.159465,
+      "controller_final_gpu_seconds_per_success": 47.94663426401869,
+      "runner_cpu_core_seconds": 751198.4768470001,
+      "returned_evidence_bytes": 38530384,
+      "peak_gpu_allocated_bytes_max": 5682665472
+    },
+    "P4_E1": {
+      "attempts": 480,
+      "successes": 437,
+      "task_equal_success_rate": 0.9104166666666667,
+      "restricted_action_steps_to_success_mean": 121.65208333333334,
+      "episode_wall_seconds_all_attempts": {
+        "count": 480,
+        "mean": 72.31072436036509,
+        "p50": 67.72129996295553,
+        "p95": 129.74375434103422
+      },
+      "episode_wall_seconds_successes_only": {
+        "count": 437,
+        "mean": 66.65748234597744,
+        "p50": 66.15033972007222,
+        "p95": 87.41334413993172
+      },
+      "inference_latency_seconds": {
+        "count": 58393,
+        "mean": 0.5513036767536628,
+        "p50": 0.5502489260397851,
+        "p95": 0.5643213419243693
+      },
+      "observation_age_at_commit_seconds": {
+        "count": 58393,
+        "mean": 0.552091092614826,
+        "p50": 0.5506122859660536,
+        "p95": 0.5648072749609128
+      },
+      "chunk_boundary_action_delta_l2": {
+        "count": 480,
+        "mean": 0.1077608621868693,
+        "p50": 0.1086075977729521,
+        "p95": 0.1399161846854871
+      },
+      "controller_final_gpu_seconds_all_attempts": 35964.610384,
+      "controller_final_gpu_seconds_per_success": 82.298879597254,
+      "runner_cpu_core_seconds": 764135.897717,
+      "returned_evidence_bytes": 38305712,
+      "peak_gpu_allocated_bytes_max": 10904325120
+    },
+    "U_E4": {
+      "attempts": 480,
+      "successes": 453,
+      "task_equal_success_rate": 0.94375,
+      "restricted_action_steps_to_success_mean": 113.30833333333334,
+      "episode_wall_seconds_all_attempts": {
+        "count": 480,
+        "mean": 12.54529975723611,
+        "p50": 11.968389219022356,
+        "p95": 22.57490132295061
+      },
+      "episode_wall_seconds_successes_only": {
+        "count": 453,
+        "mean": 11.92236365348889,
+        "p50": 11.785120758926496,
+        "p95": 14.368441004073247
+      },
+      "inference_latency_seconds": {
+        "count": 13765,
+        "mean": 0.2957727515699915,
+        "p50": 0.29491319600492716,
+        "p95": 0.3050418880302459
+      },
+      "observation_age_at_commit_seconds": {
+        "count": 54388,
+        "mean": 0.33580581517886454,
+        "p50": 0.3358533550053835,
+        "p95": 0.38081983698066324
+      },
+      "chunk_boundary_action_delta_l2": {
+        "count": 480,
+        "mean": 0.1538606097004301,
+        "p50": 0.13222174712642096,
+        "p95": 0.2507536529800782
+      },
+      "controller_final_gpu_seconds_all_attempts": 6886.590355999999,
+      "controller_final_gpu_seconds_per_success": 15.202186216335539,
+      "runner_cpu_core_seconds": 180207.60525399997,
+      "returned_evidence_bytes": 35079495,
+      "peak_gpu_allocated_bytes_max": 5682665472
+    },
+    "P4_E4": {
+      "attempts": 480,
+      "successes": 452,
+      "task_equal_success_rate": 0.9416666666666667,
+      "restricted_action_steps_to_success_mean": 115.06666666666666,
+      "episode_wall_seconds_all_attempts": {
+        "count": 480,
+        "mean": 20.319308676740185,
+        "p50": 19.38308247202076,
+        "p95": 36.701727365958504
+      },
+      "episode_wall_seconds_successes_only": {
+        "count": 452,
+        "mean": 19.26118067586336,
+        "p50": 19.025698628043756,
+        "p95": 23.42844975006301
+      },
+      "inference_latency_seconds": {
+        "count": 13969,
+        "mean": 0.5528346734406693,
+        "p50": 0.55075588892214,
+        "p95": 0.5644527180120349
+      },
+      "observation_age_at_commit_seconds": {
+        "count": 55232,
+        "mean": 0.5948000646859134,
+        "p50": 0.5943702319636941,
+        "p95": 0.6407708160113543
+      },
+      "chunk_boundary_action_delta_l2": {
+        "count": 480,
+        "mean": 0.13255803095604046,
+        "p50": 0.11446204547897856,
+        "p95": 0.23693673149355823
+      },
+      "controller_final_gpu_seconds_all_attempts": 10682.657772000002,
+      "controller_final_gpu_seconds_per_success": 23.634198610619475,
+      "runner_cpu_core_seconds": 186579.47853199998,
+      "returned_evidence_bytes": 35551067,
+      "peak_gpu_allocated_bytes_max": 10904325120
+    }
+  },
+  "paired_contrasts": {
+    "compression_at_E1": {
+      "success_rate_difference": {
+        "estimate": 0.018750000000000017,
+        "task_cluster_percentile_95ci": [
+          -0.02916666666666662,
+          0.07708333333333335
+        ],
+        "per_task": [
+          -0.04999999999999993,
+          0.18333333333333335,
+          -0.033333333333333326,
+          -0.06666666666666665,
+          0.01666666666666672,
+          -0.016666666666666607,
+          0.033333333333333326,
+          0.08333333333333326
+        ]
+      },
+      "restricted_action_steps_difference": {
+        "estimate": -0.5354166666666647,
+        "task_cluster_percentile_95ci": [
+          -8.504166666666666,
+          5.5791666666666675
+        ],
+        "per_task": [
+          5.050000000000011,
+          -24.316666666666663,
+          6.833333333333314,
+          9.150000000000006,
+          0.7666666666666657,
+          7.633333333333326,
+          -6.48333333333332,
+          -2.916666666666657
+        ]
+      },
+      "episode_wall_seconds_all_attempts_difference": {
+        "estimate": 31.342487475597835,
+        "task_cluster_percentile_95ci": [
+          27.318669723341255,
+          34.91794905959833
+        ],
+        "per_task": [
+          30.444924155160948,
+          19.949543903721498,
+          37.944632429390914,
+          34.13922910113276,
+          28.847949479828827,
+          38.41366992758122,
+          29.50949605650191,
+          31.49045475146462
+        ]
+      }
+    },
+    "execution_E4_vs_E1_uncompressed": {
+      "success_rate_difference": {
+        "estimate": 0.05208333333333333,
+        "task_cluster_percentile_95ci": [
+          -0.014583333333333351,
+          0.13749999999999998
+        ],
+        "per_task": [
+          0.0,
+          0.29999999999999993,
+          -0.033333333333333326,
+          -0.050000000000000044,
+          0.0,
+          -0.016666666666666607,
+          0.15000000000000002,
+          0.06666666666666665
+        ]
+      },
+      "restricted_action_steps_difference": {
+        "estimate": -8.879166666666663,
+        "task_cluster_percentile_95ci": [
+          -20.631249999999994,
+          0.15000000000000213
+        ],
+        "per_task": [
+          -4.449999999999989,
+          -43.78333333333333,
+          2.666666666666657,
+          3.7833333333333456,
+          -2.083333333333343,
+          2.666666666666657,
+          -21.999999999999986,
+          -7.833333333333314
+        ]
+      },
+      "episode_wall_seconds_all_attempts_difference": {
+        "estimate": -28.422937127531135,
+        "task_cluster_percentile_95ci": [
+          -30.86332881181321,
+          -26.003203972000726
+        ],
+        "per_task": [
+          -23.737505449535092,
+          -34.097873494036804,
+          -28.659320193406895,
+          -24.21611548422564,
+          -25.53313932439196,
+          -28.990254185886197,
+          -31.896588843800906,
+          -30.2527000449656
+        ]
+      }
+    },
+    "combined_vs_reference": {
+      "success_rate_difference": {
+        "estimate": 0.05000000000000002,
+        "task_cluster_percentile_95ci": [
+          -0.01874999999999996,
+          0.13958333333333334
+        ],
+        "per_task": [
+          0.01666666666666672,
+          0.31666666666666665,
+          -0.033333333333333326,
+          -0.09999999999999998,
+          0.01666666666666672,
+          0.01666666666666672,
+          0.08333333333333337,
+          0.08333333333333326
+        ]
+      },
+      "restricted_action_steps_difference": {
+        "estimate": -7.120833333333332,
+        "task_cluster_percentile_95ci": [
+          -19.00208333333333,
+          2.0500000000000007
+        ],
+        "per_task": [
+          -3.2166666666666544,
+          -43.46666666666667,
+          4.316666666666663,
+          11.216666666666669,
+          -3.4666666666666686,
+          -1.2833333333333456,
+          -14.36666666666666,
+          -6.699999999999989
+        ]
+      },
+      "episode_wall_seconds_all_attempts_difference": {
+        "estimate": -20.648928208027062,
+        "task_cluster_percentile_95ci": [
+          -23.466258288718624,
+          -18.111801488698255
+        ],
+        "per_task": [
+          -17.053612599215313,
+          -28.437211737865194,
+          -19.740552779764403,
+          -15.177314463911653,
+          -18.48486828355623,
+          -20.734445529522294,
+          -23.546697248322502,
+          -22.016723022058915
+        ]
+      }
+    },
+    "compression_at_E4": {
+      "success_rate_difference": {
+        "estimate": -0.002083333333333312,
+        "task_cluster_percentile_95ci": [
+          -0.027083333333333307,
+          0.01875000000000003
+        ],
+        "per_task": [
+          0.01666666666666672,
+          0.01666666666666672,
+          0.0,
+          -0.04999999999999993,
+          0.01666666666666672,
+          0.033333333333333326,
+          -0.06666666666666665,
+          0.016666666666666607
+        ]
+      },
+      "restricted_action_steps_difference": {
+        "estimate": 1.758333333333331,
+        "task_cluster_percentile_95ci": [
+          -0.779166666666665,
+          4.422916666666662
+        ],
+        "per_task": [
+          1.2333333333333343,
+          0.3166666666666629,
+          1.6500000000000057,
+          7.433333333333323,
+          -1.3833333333333258,
+          -3.950000000000003,
+          7.633333333333326,
+          1.1333333333333258
+        ]
+      },
+      "episode_wall_seconds_all_attempts_difference": {
+        "estimate": 7.774008919504073,
+        "task_cluster_percentile_95ci": [
+          6.9700405077584335,
+          8.488160894588994
+        ],
+        "per_task": [
+          6.683892850319777,
+          5.660661756171612,
+          8.918767413642492,
+          9.038801020313985,
+          7.048271040835727,
+          8.255808656363904,
+          8.349891595478402,
+          8.235977022906686
+        ]
+      }
+    },
+    "interaction_difference_in_differences": {
+      "success_rate_difference": {
+        "estimate": -0.02083333333333333,
+        "task_cluster_percentile_95ci": [
+          -0.07708333333333331,
+          0.029166666666666646
+        ],
+        "per_task": [
+          0.06666666666666665,
+          -0.16666666666666663,
+          0.033333333333333326,
+          0.01666666666666672,
+          0.0,
+          0.04999999999999993,
+          -0.09999999999999998,
+          -0.06666666666666665
+        ]
+      },
+      "restricted_action_steps_difference": {
+        "estimate": 2.2937499999999957,
+        "task_cluster_percentile_95ci": [
+          -4.591666666666667,
+          10.458333333333332
+        ],
+        "per_task": [
+          -3.816666666666677,
+          24.633333333333326,
+          -5.183333333333309,
+          -1.7166666666666828,
+          -2.1499999999999915,
+          -11.583333333333329,
+          14.116666666666646,
+          4.049999999999983
+        ]
+      },
+      "episode_wall_seconds_all_attempts_difference": {
+        "estimate": -23.568478556093762,
+        "task_cluster_percentile_95ci": [
+          -26.59687380058022,
+          -20.233412923976722
+        ],
+        "per_task": [
+          -23.76103130484117,
+          -14.288882147549886,
+          -29.025865015748423,
+          -25.10042808081878,
+          -21.799678438993098,
+          -30.157861271217314,
+          -21.159604461023505,
+          -23.25447772855793
+        ]
+      }
+    }
+  },
+  "bootstrap": {
+    "replicates": 10000,
+    "seed": 20261017,
+    "cluster_unit": "task",
+    "clusters": 8,
+    "pairing_unit": "task x initial-state x seed"
+  },
+  "final_grid_controller_gpu_hours": 20.570838326944443,
+  "limitations": [
+    "Only eight reserved spatial tasks, below suggested ten; checkpoint training exposure unknown.",
+    "New DuQuant-rotated packed-W4/dynamic-int8-A8 kernel; not full original ATM/OHB or 32-batch calibration. Speedup is assessed from measured all-attempt timing, not presumed.",
+    "Synchronous closed-loop E1/E4 without the protocol's asynchronous scheduler or physical robot.",
+    "Action L2 deltas are numerical control-space diagnostics, not physical jerk or safety evidence.",
+    "Success-only completion wall times are selection conditioned; all-attempt results and capped-step metric are primary complements.",
+    "Controller GPU seconds include each final batch's model loading and execution; shared project preparation/failures are reported separately, not arbitrarily allocated to arms."
+  ]
+}

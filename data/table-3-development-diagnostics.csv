@@ -1,0 +1,7 @@
+configuration,steady_inference_s_per_call,full_target_gpu_allocator_peak_gib,evidence_level
+BF16,0.305555,5.292394638,reference
+Full W4/A8,0.58832,10.155,development
+W8 resident,0.48867,10.155,development
+Cached rotation,0.399956,10.155,development
+Backbone-only,0.342926,8.538,development
+Offline backbone,0.34175,4.842966079711914,development

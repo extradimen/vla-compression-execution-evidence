@@ -1,0 +1,522 @@
+{
+  "schema_version": 1,
+  "candidate": "offline_gpu_prepack_v1",
+  "checkpoint_identity": "4d48469ee13643f0a7f368f9865ec92be3f75ba5807a8bd33b5d6f3987fc3247",
+  "gates_sha256": "d637558a8757c175a81eeee4795de35bbb248aa9f44d11c5b0d5cb2a6f37faf4",
+  "bundle_manifest_sha256": "8738ff4032ea11bffce45dc2a7f9550ea3cc64e5924bf9fce6caaf226a687382",
+  "module_count": 84,
+  "all_passed": true,
+  "max_relative_rms": 0.0,
+  "max_absolute_over_reference_rms": 0.0,
+  "total_artifact_bytes": 725068704,
+  "model_load_seconds": 11.53276640799595,
+  "gpu_prepare_seconds": 1.656161177001195,
+  "serialize_and_validate_seconds": 5.213059121000697,
+  "gpu_peak_allocated_bytes": 9603243008,
+  "modules": [
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.0.mlp.down_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.0.mlp.gate_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.0.mlp.up_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.0.self_attn.k_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.0.self_attn.o_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.0.self_attn.q_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.0.self_attn.v_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.1.mlp.down_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.1.mlp.gate_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.1.mlp.up_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.1.self_attn.k_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.1.self_attn.o_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.1.self_attn.q_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.1.self_attn.v_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.10.mlp.down_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.10.mlp.gate_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.10.mlp.up_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.10.self_attn.k_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.10.self_attn.o_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.10.self_attn.q_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.10.self_attn.v_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.11.mlp.down_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.11.mlp.gate_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.11.mlp.up_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.11.self_attn.k_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.11.self_attn.o_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.11.self_attn.q_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.11.self_attn.v_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.2.mlp.down_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.2.mlp.gate_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.2.mlp.up_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.2.self_attn.k_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.2.self_attn.o_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.2.self_attn.q_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.2.self_attn.v_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.3.mlp.down_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.3.mlp.gate_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.3.mlp.up_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.3.self_attn.k_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.3.self_attn.o_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.3.self_attn.q_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.3.self_attn.v_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.4.mlp.down_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.4.mlp.gate_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.4.mlp.up_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.4.self_attn.k_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.4.self_attn.o_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.4.self_attn.q_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.4.self_attn.v_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.5.mlp.down_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.5.mlp.gate_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.5.mlp.up_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.5.self_attn.k_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.5.self_attn.o_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.5.self_attn.q_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.5.self_attn.v_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.6.mlp.down_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.6.mlp.gate_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.6.mlp.up_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.6.self_attn.k_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.6.self_attn.o_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.6.self_attn.q_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.6.self_attn.v_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.7.mlp.down_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.7.mlp.gate_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.7.mlp.up_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.7.self_attn.k_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.7.self_attn.o_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.7.self_attn.q_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.7.self_attn.v_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.8.mlp.down_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.8.mlp.gate_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.8.mlp.up_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.8.self_attn.k_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.8.self_attn.o_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.8.self_attn.q_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.8.self_attn.v_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.9.mlp.down_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.9.mlp.gate_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.9.mlp.up_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.9.self_attn.k_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.9.self_attn.o_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.9.self_attn.q_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    },
+    {
+      "module": "backbone.eagle_model.language_model.model.layers.9.self_attn.v_proj",
+      "relative_rms": 0.0,
+      "max_over_reference_rms": 0.0,
+      "passed": true
+    }
+  ]
+}

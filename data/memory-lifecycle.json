@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "project_id": "543ce8cb-642f-4b37-abff-ae13bbd9be98",
+  "condition": "development task0 state20 seed53 E1 D4; A100-2; CUDA max_memory_allocated",
+  "rows": [
+    {
+      "name": "BF16",
+      "source": "outputs/quantvla-packed-profile-v2/quantvla-packed-profile-v2-bf16-t0-s20-seed53/summary.json",
+      "source_sha256": "6f99f4765c8c59ba54f3596e3914e9a76ba38ce811b0dbe6237b9bcdfe199212",
+      "preparation_peak_gib": 5.092715263366699,
+      "inference_peak_gib": 5.292394638061523,
+      "lifecycle_peak_gib": 5.292394638061523,
+      "preparation_seconds": 0.0,
+      "model_load_seconds": 28.344948411002406
+    },
+    {
+      "name": "P4_original",
+      "source": "outputs/quantvla-packed-profile-v2/quantvla-packed-profile-v2-p4-t0-s20-seed53/summary.json",
+      "source_sha256": "e1bb132e6f3ef989e43143a00623c665f23f238ea1562c216ccd151561ad4749",
+      "preparation_peak_gib": 10.155444145202637,
+      "inference_peak_gib": 4.115015029907227,
+      "lifecycle_peak_gib": 10.155444145202637,
+      "preparation_seconds": 2.480551650005509,
+      "model_load_seconds": 11.45060227700742,
+      "inference_peak_saving_vs_bf16_gib": 1.1773796081542969,
+      "lifecycle_peak_increase_vs_bf16_gib": 4.863049507141113,
+      "lifecycle_peak_ratio_vs_bf16": 1.9188750725743935
+    },
+    {
+      "name": "P4_cached",
+      "source": "outputs/quantvla-cached-rotations-profile-v1/result/summary.json",
+      "source_sha256": "4101198cbc7fcee5f3881826eb38a286fd9d759474edd9d6e5947c741eb2c480",
+      "preparation_peak_gib": 10.155444145202637,
+      "inference_peak_gib": 4.620439529418945,
+      "lifecycle_peak_gib": 10.155444145202637,
+      "preparation_seconds": 2.4927861370088067,
+      "model_load_seconds": 13.023918414997752,
+      "inference_peak_saving_vs_bf16_gib": 0.6719551086425781,
+      "lifecycle_peak_increase_vs_bf16_gib": 4.863049507141113,
+      "lifecycle_peak_ratio_vs_bf16": 1.9188750725743935
+    },
+    {
+      "name": "backbone_only",
+      "source": "outputs/quantvla-backbone-only-profile-v1/summary.json",
+      "source_sha256": "fe4182cd9fa6039ec7289bf3f0625f211672edf931a1d50ef812c61f652d9148",
+      "preparation_peak_gib": 8.537943840026855,
+      "inference_peak_gib": 4.843050003051758,
+      "lifecycle_peak_gib": 8.537943840026855,
+      "preparation_seconds": 1.724070672004018,
+      "model_load_seconds": 13.068343858001754,
+      "inference_peak_saving_vs_bf16_gib": 0.4493446350097656,
+      "lifecycle_peak_increase_vs_bf16_gib": 3.245549201965332,
+      "lifecycle_peak_ratio_vs_bf16": 1.6132477685288598
+    }
+  ],
+  "finding": "No observed compressed variant has a lower complete load/prepare/inference allocated-memory peak than BF16; preparation dominates each compressed lifecycle peak.",
+  "scope": "Single-condition descriptive allocator evidence, not physical VRAM requirement, quality, total cost, or independent confirmation.",
+  "new_gpu_hours": 0
+}
