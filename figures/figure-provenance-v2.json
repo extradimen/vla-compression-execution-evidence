@@ -1,0 +1,29 @@
+{
+  "sources": [
+    "outputs/quantvla-packed-w4a8-final-analysis-v1.json",
+    "data/table-3-development-diagnostics.csv",
+    "data/module-attribution.json",
+    "data/memory-lifecycle.json",
+    "data/offline-target-summary.json",
+    "data/offline-producer-result.json"
+  ],
+  "transformations": "Figures 1 and 3 use frozen paired contrasts and direct arm means; Figure 2 reads the archived development table. Figure 3 multiplies success fractions by 100. No new inference.",
+  "palette": {
+    "reference_BF16_backbone": "#0072B2",
+    "packed_or_development": "#E69F00",
+    "paired_E1_effect": "#0072B2",
+    "paired_E4_effect": "#E69F00",
+    "offline_target": "#009E73",
+    "ink": "#243447",
+    "grid": "#D9E1E8"
+  },
+  "panels": [
+    "success",
+    "all-attempt wall time",
+    "controlled GPU seconds per success",
+    "mean inference latency"
+  ],
+  "figure0": "study pathway diagram, no quantitative inference",
+  "figure4": "one development trace: calls, nominal module weight savings, inclusive CPU scope; no causal timing decomposition",
+  "figure5": "one development condition: direct allocator peaks by measurement window; offline producer separate at 8.944 GiB"
+}
